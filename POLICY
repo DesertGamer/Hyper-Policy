@@ -4,6 +4,7 @@ The bot collects the following data about your server:
 - Protection status and settings (anti-crash: on/off, people on the white list; anti-raid: on/off, number of inputs and time interval; AntiBot: on/off; auto-moderation: on/off, its settings, such as duration and type of punishment for sending links/flood)
 - Server greeting settings (on/off, text)
 - When sending a message to any server, if auto-moderation is enabled, the bot analyzes this message (messages are not saved in the database)
+- When sending messages in case you have activated the inter system. server communication, the bot analyzes this message in case of violation of the TOS rules, as well as messages are stored in the database for 30 days, after which they are automatically deleted)
 - Auto-role settings (the role that is given to all participants at the entrance)
 - All commands executed by the bot are logged in order to protect against a DDoS attack on the bot, as well as statistical data on the use of a particular module in the bot.
 
